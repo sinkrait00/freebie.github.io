@@ -1,0 +1,90 @@
+$main_color : #F7941E
+$second_color : #F1F1F2   
+
+
+body
+    
+    margin: 0
+    padding: 0
+
+    font-family: 'Gilroy','Roboto', sans-serif
+    font-size: 18px
+
+    overflow-x: hidden
+a
+    color: #000000
+    text-decoration: none
+
+
+.container
+    width: 100%
+    
+    margin-right: auto
+    margin-left: auto
+
+.header-navig
+    position: relative
+
+    width: 100%
+
+    display: grid
+    grid-template-columns: 1fr 4fr 1fr
+ 
+    height: 120px
+
+    &__logo, &__menu, &__button
+        display: flex
+        justify-content: center
+        align-items: center
+
+        font-style: 
+    &__menu a
+        margin-right: 2vw
+
+.button-first,
+.button-second
+    margin-right: 20px
+    padding: 15px 25px
+
+    color: $main_color
+    text-transform: uppercase
+
+    border: 1px solid $main_color
+    box-sizing: border-box
+    border-radius: 5px
+.button-second
+    background-color: $main_color
+    
+    color: #ffffff
+
+.present
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-auto-rows: minmax(500px, auto)
+
+    &__info-block
+        background-color: $second_color
+
+        display: flex
+        flex-direction: column
+        justify-content: center
+        
+        padding: 25%
+        & h2
+            font-size: 56px
+            line-height: 69px
+
+        & h4
+            font-size: 32px
+            line-height: 140%
+
+        & h2, & h4, & p
+            margin-bottom: 30px
+        & p
+            font-size: 20px
+        & a
+            align-self: flex-start
+
+    &__img-block img
+        width: 100%
+        height: 100%

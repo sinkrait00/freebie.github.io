@@ -11,27 +11,27 @@ let livereload = require('gulp-livereload');
 let autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass-compile',function(){
-    return gulp.src('styles/sass/*.sass')
+    return gulp.src('assets/sass/*.sass')
             .pipe(sourcemaps.init())
             .pipe(sass().on('error',sass.logError))
             .pipe(sourcemaps.write('./'))
-            .pipe(gulp.dest('styles/css'))
+            .pipe(gulp.dest('assets/css'))
     });
 
     gulp.task('watch',function(){
       
-    gulp.watch('styles/sass/*.sass',gulp.series('sass-compile','con-min'));
+    gulp.watch('assets/sass/*.sass',gulp.series('sass-compile','con-min'));
     });
 
 gulp.task('con-min', function () {
-  return gulp.src('styles/css/*.css')
-    .pipe(concatCss("styles/all.css"))
+  return gulp.src('assets/css/*.css')
+    .pipe(concatCss("assets/all.css"))
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(rename('all.min.css'))
     .pipe(autoprefixer({
       cascade: false
       }))
-    .pipe(gulp.dest('importCss/'))
+    .pipe(gulp.dest('assets/css/importCss/'))
     .pipe(livereload({start: true}));
 });
 
