@@ -67,4 +67,111 @@ a {
     width: 100%;
     height: 100%; }
 
+.gifts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: #FFFFFF; }
+  .gifts h2, .gifts p {
+    text-align: center; }
+  .gifts h2 {
+    font-size: 32px;
+    line-height: 38px; }
+  .gifts p {
+    margin: 30px 0 65px 0;
+    font-size: 18px; }
+  .gifts__container {
+    display: flex;
+    justify-content: center; }
+    .gifts__container__block {
+      margin-right: 2vw;
+      background-color: #FAFAFA;
+      padding-bottom: 25px; }
+      .gifts__container__block h4 {
+        margin: 25px 0px 65px 25px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: normal; }
+      .gifts__container__block a {
+        margin: 0px 0px 25px 25px;
+        font-size: 14px;
+        line-height: 19px; }
+
+.adds {
+  background-color: #F7941E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 60px 0; }
+  .adds__info {
+    margin-right: 7vw; }
+  .adds__buttons {
+    margin-left: 7vw; }
+  .adds__info h2, .adds__info p {
+    font-size: 32px; }
+  .adds__buttons a {
+    background: #231F20;
+    border: 1px solid #231F20; }
+
+.how_it_works {
+  background: transparent !important;
+  color: #231F20; }
+
+.blogs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin: 0 auto;
+  padding: 90px 0; }
+  .blogs h2, .blogs p {
+    text-align: center; }
+  .blogs h2 {
+    font-size: 32px;
+    font-weight: normal; }
+  .blogs p {
+    font-size: 18px;
+    margin: 30px 0; }
+  .blogs__block-1 {
+    display: flex;
+    background-color: #231F20;
+    color: #ffffff;
+    margin-top: 70px; }
+    .blogs__block-1__info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 40%;
+      margin-left: 70px; }
+      .blogs__block-1__info p {
+        font-size: 14px;
+        margin-top: 65px; }
+      .blogs__block-1__info h2 {
+        font-size: 48px;
+        text-align: start !important;
+        margin: 0; }
+      .blogs__block-1__info a {
+        font-size: 18px;
+        color: #ffffff;
+        margin-top: 60px; }
+    .blogs__block-1 img {
+      max-width: 100%;
+      max-height: 100%; }
+  .blogs__container-block-2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0; }
+  .blogs__block-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 70px; }
+    .blogs__block-2 h4 {
+      font-size: 24px; }
+    .blogs__block-2 p {
+      text-align: start !important; }
+    .blogs__block-2 a {
+      font-size: 14px; }
+
 /*# sourceMappingURL=main.css.map */

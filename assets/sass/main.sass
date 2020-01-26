@@ -1,6 +1,6 @@
-$main_color : #F7941E
-$second_color : #F1F1F2   
-
+$orange : #F7941E
+$white : #F1F1F2   
+$black: #231F20
 
 body
     
@@ -46,14 +46,14 @@ a
     margin-right: 20px
     padding: 15px 25px
 
-    color: $main_color
+    color: $orange
     text-transform: uppercase
 
-    border: 1px solid $main_color
+    border: 1px solid $orange
     box-sizing: border-box
     border-radius: 5px
 .button-second
-    background-color: $main_color
+    background-color: $orange
     
     color: #ffffff
 
@@ -63,7 +63,7 @@ a
     grid-auto-rows: minmax(500px, auto)
 
     &__info-block
-        background-color: $second_color
+        background-color: $white
 
         display: flex
         flex-direction: column
@@ -88,3 +88,151 @@ a
     &__img-block img
         width: 100%
         height: 100%
+
+
+.gifts
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    padding: 100px 0
+
+    background-color: #FFFFFF
+    & h2, & p
+        text-align: center
+    & h2
+        font-size: 32px
+        line-height: 38px
+    & p 
+        margin: 30px 0 65px 0
+
+        font-size: 18px
+        
+    &__container
+        display: flex
+        justify-content: center
+        
+        
+        &__block
+            margin-right: 2vw
+
+            background-color: #FAFAFA
+
+            padding-bottom: 25px
+
+            & h4
+                margin: 25px 0px 65px 25px
+
+                font-size: 20px
+                line-height: 24px
+                font-weight: normal
+            & a
+                margin: 0px 0px 25px 25px
+
+                font-size: 14px
+                line-height: 19px
+
+
+
+.adds
+    background-color: $orange
+
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    padding: 60px 0
+
+    &__info
+        margin-right: 7vw
+    &__buttons
+        margin-left: 7vw
+
+    &__info
+        & h2, & p
+            font-size: 32px
+            
+
+    &__buttons a
+        background: $black
+        border: 1px solid $black
+
+.how_it_works
+    background: transparent!important
+    color: $black
+
+
+.blogs
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+    width: 65%
+    
+    margin: 0 auto
+
+    padding: 90px 0
+    & h2, & p
+        text-align: center
+    & h2
+        font-size: 32px
+        font-weight: normal
+    & p 
+        font-size: 18px
+
+        margin: 30px 0
+
+
+    &__block-1
+        display: flex
+
+        background-color: $black
+
+        color: #ffffff
+
+        margin-top: 70px
+        &__info
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            
+
+            width: 40%
+
+            margin-left: 70px
+            & p
+                font-size: 14px
+
+                margin-top: 65px
+            & h2
+                font-size: 48px
+                text-align: start!important
+
+                margin: 0
+            & a
+                font-size: 18px
+                color: #ffffff
+
+                margin-top: 60px
+        & img
+            max-width: 100%
+            max-height: 100%
+        
+
+    &__container-block-2
+        display: flex
+        justify-content: space-around
+        margin: 40px 0
+    &__block-2
+        display: flex
+        flex-direction: column
+        
+        padding: 48px 70px
+        
+        & h4
+            font-size: 24px
+        & p
+            text-align: start!important
+
+        & a
+            font-size: 14px
