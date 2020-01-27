@@ -1,2 +1,39 @@
+@media screen and (max-width: 578px) {
+  .gifts {
+    text-align: center; }
+    .gifts__container {
+      display: flex;
+      flex-wrap: wrap; }
+      .gifts__container__block {
+        margin: 30px 0; }
+  .adds__info, .adds__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    text-align: center; }
+    .adds__info a, .adds__buttons a {
+      margin: 15px 0; }
+  .blogs {
+    width: 90%; }
+    .blogs__block-1 {
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: 0; }
+      .blogs__block-1__info {
+        width: 100%;
+        padding: 15px;
+        margin: 0; }
+        .blogs__block-1__info h2 {
+          font-size: 1.3em; }
+        .blogs__block-1__info p, .blogs__block-1__info a, .blogs__block-1__info h2 {
+          margin-top: 30px; }
+        .blogs__block-1__info a {
+          font-size: .8em; }
+    .blogs__container-block-2 {
+      flex-wrap: wrap; }
+    .blogs__block-2 {
+      padding: 30px 0; } }
 
 /*# sourceMappingURL=response.css.map */
