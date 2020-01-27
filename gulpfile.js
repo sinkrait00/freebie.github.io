@@ -25,12 +25,10 @@ gulp.task('sass-compile',function(){
 
 gulp.task('con-min', function () {
   return gulp.src('assets/css/*.css')
+    .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
     .pipe(concatCss("assets/all.css"))
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(rename('all.min.css'))
-    .pipe(autoprefixer({
-      cascade: false
-      }))
     .pipe(gulp.dest('assets/css/importCss/'))
     .pipe(livereload({start: true}));
 });

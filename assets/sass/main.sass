@@ -11,10 +11,16 @@ body
     font-size: 18px
 
     overflow-x: hidden
+
+    
 a
     color: #000000
     text-decoration: none
 
+    user-select: none
+
+img
+    user-select: none
 
 .container
     width: 100%
@@ -236,3 +242,27 @@ a
 
         & a
             font-size: 14px
+footer
+    background-color: #fafafa
+.footer__container
+    display: flex
+    flex-direction: column
+    
+    align-items: center
+    width: 70%
+
+    margin: 0 auto
+.footer__navig
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 80%
+    border-bottom: 2px solid $black
+    padding: 55px
+    & a
+        margin: 0 60px
+
+.footer__social
+    padding: 55px 0  
+    & a
+        margin: 0 15px
