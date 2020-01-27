@@ -1,9 +1,11 @@
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 1150px) {
   .gifts {
     text-align: center; }
     .gifts__container {
       display: flex;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 0 30px; }
       .gifts__container__block {
         margin: 30px 0; }
   .adds__info, .adds__buttons {
@@ -12,6 +14,72 @@
     flex-direction: column;
     justify-content: center;
     margin: 0;
+    text-align: center; }
+    .adds__info a, .adds__buttons a {
+      margin: 15px 0 15px 60px; }
+  .blogs__block-1 {
+    margin: 0; }
+    .blogs__block-1__info {
+      width: 100%;
+      padding: 15px;
+      margin: 0; } }
+
+@media screen and (max-width: 768px) {
+  .blogs {
+    width: 90%; }
+    .blogs__container-block-2 {
+      flex-wrap: wrap; }
+  .footer__container {
+    justify-content: flex-start;
+    width: 90%; }
+  .footer__navig {
+    flex-direction: column;
+    align-items: flex-start !important;
+    width: auto;
+    padding: 0 0 30px 0;
+    margin: 20px 0;
+    border: none; }
+    .footer__navig a {
+      margin: 10px 0; }
+  .footer__social {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .footer__social a {
+      margin: 15px; } }
+
+@media screen and (max-width: 578px) {
+  .button-first,
+  .button-second {
+    margin: 0; }
+  .present {
+    grid-template-columns: 1fr; }
+    .present__info-block {
+      padding: 45px; }
+    .present h2 {
+      font-size: 2.3em;
+      line-height: 69px; }
+    .present h4 {
+      font-size: 1.5em;
+      line-height: 140%; }
+    .present h2, .present h4, .present p {
+      margin-bottom: 30px; }
+    .present p, .present a {
+      font-size: 18px; }
+  .gifts {
+    text-align: center; }
+    .gifts__container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+      .gifts__container__block {
+        margin: 30px 0; }
+  .adds__info, .adds__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15px;
     text-align: center; }
     .adds__info a, .adds__buttons a {
       margin: 15px 0; }
@@ -23,14 +91,15 @@
       margin: 0; }
       .blogs__block-1__info {
         width: 100%;
-        padding: 15px;
+        padding: 10px;
         margin: 0; }
         .blogs__block-1__info h2 {
           font-size: 1.3em; }
         .blogs__block-1__info p, .blogs__block-1__info a, .blogs__block-1__info h2 {
           margin-top: 30px; }
         .blogs__block-1__info a {
-          font-size: .8em; }
+          font-size: .8em;
+          padding-bottom: 30px; }
     .blogs__container-block-2 {
       flex-wrap: wrap; }
     .blogs__block-2 {

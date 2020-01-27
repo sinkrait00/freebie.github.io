@@ -1,10 +1,13 @@
-@media screen and ( max-width: 578px )
+
+@media screen and ( max-width: 1150px )
     .gifts
         text-align: center
         &__container
             display: flex
             flex-wrap: wrap
+            justify-content: space-between
 
+            padding: 0 30px
             &__block
                 margin: 30px 0
 
@@ -21,6 +24,104 @@
 
             text-align: center
             & a
+                margin: 15px 0 15px 60px
+
+    .blogs
+        &__block-1
+            
+            margin: 0
+            &__info
+                width: 100%
+
+                padding: 15px
+                margin: 0
+          
+               
+        &__container-block-2
+            
+      
+
+
+
+
+
+@media screen and ( max-width: 768px )
+
+    
+    .blogs
+        width: 90%
+        &__container-block-2
+            flex-wrap: wrap
+
+    .footer__container
+        justify-content: flex-start
+        
+        width: 90%
+    .footer__navig
+        flex-direction: column
+        
+        align-items: flex-start!important
+
+        width: auto
+
+        padding: 0 0 30px 0
+        margin: 20px 0
+
+        border: none
+        & a 
+            margin: 10px 0
+    .footer__social
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+
+        & a
+            margin: 15px
+@media screen and ( max-width: 578px )
+    .button-first,
+    .button-second
+        margin: 0
+    .present
+
+        grid-template-columns: 1fr
+
+        &__info-block
+            padding: 45px
+        & h2
+            font-size: 2.3em
+            line-height: 69px
+
+        & h4
+            font-size: 1.5em
+            line-height: 140%
+
+        & h2, & h4, & p
+            margin-bottom: 30px
+        & p, & a
+            font-size: 18px
+        
+    .gifts
+        text-align: center
+        &__container
+            display: flex
+            flex-wrap: wrap
+            justify-content: center
+            &__block
+                margin: 30px 0
+
+
+    .adds
+
+        &__info, &__buttons
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+            justify-content: center
+
+            margin: 0 15px
+
+            text-align: center
+            & a
                 margin: 15px 0
 
     .blogs
@@ -33,7 +134,7 @@
             &__info
                 width: 100%
 
-                padding: 15px
+                padding: 10px
                 margin: 0
                 & h2
                     font-size: 1.3em
@@ -42,8 +143,14 @@
 
                 & a
                     font-size: .8em
+                    padding-bottom: 30px
+
                
         &__container-block-2
             flex-wrap: wrap
         &__block-2
             padding: 30px 0
+
+
+
+   
