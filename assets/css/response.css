@@ -59,15 +59,17 @@
     flex-direction: column;
     align-items: flex-start !important;
     width: auto;
-    padding: 0 0 30px 0;
-    margin: 20px 0;
+    padding: 0;
+    margin-top: 30px;
     border: none; }
     .footer__navig a {
       margin: 10px 0; }
   .footer__social {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 0 0 55px 0; }
     .footer__social a {
       margin: 15px; } }
 
@@ -121,12 +123,12 @@
     margin: 0; }
     .blogs__block-1__info {
       width: 100%;
-      padding: 10px;
+      padding: 0;
       margin: 0; }
       .blogs__block-1__info h2 {
         font-size: 1.3em; }
       .blogs__block-1__info p, .blogs__block-1__info a, .blogs__block-1__info h2 {
-        margin-top: 30px; }
+        margin: 30px 0 0 15px; }
       .blogs__block-1__info a {
         font-size: .8em;
         padding-bottom: 30px; }
