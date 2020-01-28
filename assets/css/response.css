@@ -23,6 +23,9 @@
       padding: 0 30px; }
       .gifts__container__block {
         margin: 30px 0; }
+      .gifts__container h4, .gifts__container p, .gifts__container a {
+        margin-left: 0;
+        margin-right: 0; }
   .adds__info, .adds__buttons {
     display: flex;
     flex-wrap: wrap;
