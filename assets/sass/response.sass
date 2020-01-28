@@ -1,5 +1,17 @@
+@media screen and ( max-width: 1200px )
+    .header-navig__button
+        text-align: center
+    .gifts
+        text-align: center
+        &__container
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
 
-@media screen and ( max-width: 1150px )
+            padding: 0 30px
+            &__block
+                margin: 30px 0
+@media screen and ( max-width: 992px )
     .gifts
         text-align: center
         &__container
@@ -27,17 +39,26 @@
                 margin: 15px 0 15px 60px
 
     .blogs
+        width: 90%
         &__block-1
             
             margin: 0
+            
             &__info
                 width: 100%
 
                 padding: 15px
                 margin: 0
+
+                & p
+                    margin-top: 30px
+
+                & a 
+                    margin-top: 30px
           
                
         &__container-block-2
+            flex-wrap: wrap
             
       
 
@@ -46,7 +67,9 @@
 
 
 @media screen and ( max-width: 768px )
-
+    .header-navig
+        grid-template-columns: 1fr 4fr 1fr
+        
     
     .blogs
         width: 90%
@@ -81,6 +104,16 @@
     .button-first,
     .button-second
         margin: 0
+
+    .header-navig
+        grid-template-columns: 1fr
+        height: auto
+        padding: 30px 0
+        &__menu
+            flex-direction: column
+            margin: 20px 0
+            & a
+                margin: 15px 0
     .present
 
         grid-template-columns: 1fr
@@ -125,7 +158,6 @@
                 margin: 15px 0
 
     .blogs
-        width: 90%
         &__block-1
             flex-direction: column
             flex-wrap: wrap
@@ -147,7 +179,6 @@
 
                
         &__container-block-2
-            flex-wrap: wrap
         &__block-2
             padding: 30px 0
 
