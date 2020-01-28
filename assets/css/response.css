@@ -9,7 +9,9 @@
       justify-content: space-between;
       padding: 0 30px; }
       .gifts__container__block {
-        margin: 30px 0; } }
+        margin: 30px 0; }
+  .blogs {
+    width: 80%; } }
 
 @media screen and (max-width: 992px) {
   .gifts {
@@ -48,10 +50,8 @@
 @media screen and (max-width: 768px) {
   .header-navig {
     grid-template-columns: 1fr 4fr 1fr; }
-  .blogs {
-    width: 90%; }
-    .blogs__container-block-2 {
-      flex-wrap: wrap; }
+  .blogs__container-block-2 {
+    flex-wrap: wrap; }
   .footer__container {
     justify-content: flex-start;
     width: 90%; }
