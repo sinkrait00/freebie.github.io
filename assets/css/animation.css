@@ -9,7 +9,7 @@
 .footer__navig a::before {
   content: '';
   position: absolute;
-  left: 0;
+  right: 0;
   bottom: 0;
   width: 0;
   height: 2px;
@@ -20,18 +20,22 @@
 .footer__navig a::after {
   content: '';
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   width: 0;
   height: 2px;
   background-color: #231F20;
   transition: .3s; }
 
-.header-navig__menu a:hover:before,
-.header-navig__menu a:hover:after,
+.footer__navig a:hover:after,
+.header-navig__menu a:hover:after {
+  width: 100%;
+  right: 0; }
+
 .footer__navig a:hover:before,
-.footer__navig a:hover:after {
-  width: 100%; }
+.header-navig__menu a:hover:before {
+  width: 100%;
+  left: 0; }
 
 .header-navig__button a::before {
   content: "";
